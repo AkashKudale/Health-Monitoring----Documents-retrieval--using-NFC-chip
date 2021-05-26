@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context="com.example.owner.nfcadminapplication.AddUser">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@drawable/ic_user_icon"
+        android:hint=" Unique Id"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:hint=" Name"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userContact"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:hint=" Contact No"
+        android:inputType="phone"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userAddress"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+        android:hint=" Address"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:hint=" Email Id"
+        android:inputType="textEmailAddress"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/ic_partial_secure"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:padding="1dp" />
+
+    <EditText
+        android:id="@+id/userCPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_white"
+        android:drawableLeft="@android:drawable/ic_menu_view"
+        android:hint=" Confirm Password"
+        android:inputType="textPassword"
+        android:padding="1dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/addUser"
+        android:textSize="27dp"
+        android:layout_marginRight="70dp"
+        android:padding="15dp"
+        android:background="#f26c78"
+        android:text="REGISTER"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
