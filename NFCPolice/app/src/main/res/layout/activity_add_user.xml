@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.design="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="chutka.bitman.com.uploadpdfsimplified.AddUser">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search User"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/idTextInputLayoutP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android.support.design:counterMaxLength="3">
+
+        <EditText
+            android:id="@+id/idEditTextP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter User Id" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue >>>"
+        android:id="@+id/submitUser"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scan"
+        android:text="Click to scan Tag of Patient"
+        android:layout_gravity="center"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

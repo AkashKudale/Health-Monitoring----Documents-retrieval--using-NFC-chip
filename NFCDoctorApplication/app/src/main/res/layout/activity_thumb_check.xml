@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<TextView
+    android:id="@+id/textVer"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="1"
+    android:text="SDK Version: 0.0" />
+
+<TextView
+    android:id="@+id/textDevice"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="1"
+    android:text="Device: Not Opened" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="200dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/img_fp_src"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="200dip"
+        android:background="#000000" />
+
+    <ImageView
+        android:id="@+id/img_fp_dst"
+        android:layout_width="0px"
+        android:layout_weight="1"
+        android:layout_height="200dip"
+        android:background="#ffffff" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/textInfo"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="1"
+    android:text="Information" />
+
+
+<Button
+    android:onClick="OnBtnOpenDevice"
+    android:id="@+id/btnOpenDevice"
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="2"
+    android:text="Open Device" />
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="2" >
+
+    <Button
+        android:onClick="OnBtnCapture1"
+        android:id="@+id/btnCapture1"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:text="Capture1" />
+
+    <Button
+        android:onClick="OnBtnAutoOn1"
+        android:id="@+id/btnAutoOn1"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:text="AutoOn1" />
+
+
+    <Button
+        android:onClick="OnBtnCapture2"
+        android:id="@+id/btnCapture2"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:text="Capture2" />
+
+    <Button
+        android:onClick="OnBtnAutoOn2"
+        android:id="@+id/btnAutoOn2"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:text="AutoOn2" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0px"
+    android:layout_weight="2" >
+
+    <Button
+        android:onClick="OnBtnVerifyIso"
+        android:id="@+id/btnVerifyIso"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:text="Verify OLD_FDA" />
+
+    <Button
+        android:onClick="OnBtnVerifyRaw"
+        android:id="@+id/btnVerifyRaw"
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        android:text="Verify RAW Image" />
+
+</LinearLayout>
+
+</LinearLayout>
